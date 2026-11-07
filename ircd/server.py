@@ -160,9 +160,22 @@ class Server:
 
     # -- lifecycle --------------------------------------------------
 
+    async def listen(self, host: str = "127.0.0.1", port: int = 6667) -> None:
+        """Bind the socket and return, WITHOUT serving forever.
+
+        MECHANISM: asyncio.start_server begins accepting the moment it
+        is created; serve_forever() is only the park brake that keeps
+        a bare process alive. Splitting the two (desk integration fix,
+        2026-11-07) lets an embedding program -- a test harness, a
+        supervisor -- hold the listener inside its own event loop
+        without wrapping start() in a task, while start() below keeps
+        its original blocking behaviour for `python3 -m ircd`.
+        """
+        self._srv = await asyncio.start_server(self._client_connected, host, port)
+
     async def start(self, host: str = "127.0.0.1", port: int = 6667) -> None:
         """Bind, store the asyncio.Server, and serve forever."""
-        self._srv = await asyncio.start_server(self._client_connected, host, port)
+        await self.listen(host, port)
         await self._srv.serve_forever()
 
     async def close(self) -> None:
