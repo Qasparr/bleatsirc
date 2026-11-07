@@ -184,6 +184,88 @@ transparency toward the power — even when the officer is private.** The
 old networks chose, variously, neither. This house chooses both, on
 purpose, and has written it here so the choice cannot quietly un-happen.
 
+## The Duties of the IRCop — the Constitution is the whole of the law [HOUSE]
+
+*Added at the founder's order, same sitting: the companion must explain
+the duties of the IRCops, their main focus being the Twin Synergy
+Telecommunications Constitution. It stands here, at the end of the first
+brick, because a duty belongs with the office that carries it.*
+
+An IRCop of this house has one law above every tool in Bricks II–V:
+**the Twin Synergy Telecommunications Constitution.** The tools are
+means; the Constitution is the focus. Its first law is the office's
+first duty: **the user is above all** — the user is sovereign; the
+company, and therefore its officers, are **fiduciary**, bound to act for
+the user's benefit and no other's. From that root, the duties grow:
+
+1. **Serve the member, never the crown.** Every act of power must name
+   the member it protects. An act that protects only the oper's pride,
+   the network's vanity, or the office itself has no warrant and is not
+   to be done.
+2. **Carry the duty multiplied with the right.** Under the Handshake
+   Clause (Oz×Duty), no right exists in this house severed from its
+   duty — least of all an oper's. The kill, the line, the jupe: each is
+   a right that arrives *multiplied by its duty*, and exercised without
+   the duty — without reason, without record, without restraint — it is
+   void as house law, whatever the daemon permits.
+3. **Enforce the two capital crimes, and only those.** DDoS and mass
+   botting. That is the whole criminal code of the wire. Everything
+   else — channel wars (encouraged by policy), file sharing by DCC,
+   FServe, and XDCC (allowed in full), rivalry, mockery, offense — is
+   the members' country. The oper who polices beyond the two crimes has
+   left the Constitution, however good their intentions were.
+4. **Practice the duty of restraint.** Where the Constitution gives no
+   warrant, the oper's duty is to *not act* — and the standing case is
+   the lapsed channel: unregistered, emptied, fairly taken. **We will
+   not help** is not indifference; it is a constitutional duty, owed
+   equally to the one who lost the channel and the one who claimed it.
+   The office that intervenes there serves neither — it serves itself.
+5. **Guard the wire; never read it.** No logs. No telemetry. No
+   inspecting the members' traffic to sort, score, or sell — or to
+   satisfy curiosity, which is the same sin in a smaller hat. What is
+   not kept cannot be taken, and what the oper never saw can never be
+   used against the person who sent it. Public is public; private is
+   private; the line does not cross.
+6. **Be a common carrier, not a censor.** The house carries the signal.
+   Content, viewpoint, taste, and doctrine are not enforcement
+   categories — the members' speech is theirs, including speech the
+   oper despises. The two capital crimes are acts against the *wire*,
+   never against *words*.
+7. **Wear the incognito if you wish; enter the ledger always.** The
+   oper's privacy is protected as any person's (privacy toward the
+   person). The oper's *acts* belong to the record the membership may
+   inspect (transparency toward power). An official act kept out of the
+   ledger is unconstitutional on its face — not because it was
+   necessarily wrong, but because the house cannot weigh what it cannot
+   see.
+8. **Fail closed.** No justification, no action — the office of this
+   house (Oz×Duty + TRVVTH) applied to power: where the constitutional
+   warrant for an act cannot be stated, the act does not happen, and
+   the doubt resolves in the member's favor, every time.
+9. **Teach with every enforcement.** This is an educational enterprise
+   under the Method of Science. A kill or a line lands with its reason
+   stated in plain words — what rule of the two, what evidence, what
+   duration, what appeal. Power that explains itself builds the
+   network's judgment; power that doesn't only builds its fear.
+10. **Hold the guard bot as an offer, never a garrison.** The house
+    offers every channel its guard bot against takeover by force. A
+    channel that declines it has exercised the same sovereignty the
+    office exists to protect. The duty is the offer, kept standing —
+    not the occupation.
+
+**The six inquiries, for the office itself.** **Who:** any member
+deputized by O-line under the parent volume's rules. **What:** a trust,
+not a rank. **Where:** everywhere the wire runs, and nowhere the
+Constitution does not reach — which is to say the reach and the limit
+are the same line. **When:** on duty, the focus does not lapse; an oper
+is fiduciary in their sleep, because the ledger does not sleep.
+**Why:** because a network that encourages channel wars, allows the
+whole file culture, and refuses to log its people *requires* officers
+whose restraint is constitutional rather than temperamental — freedom
+this wide is only survivable if power this strong is this bounded.
+**How:** by the ten duties above, weighed on TRVVTH, recorded in the
+ledger, and answerable to the membership the Constitution serves.
+
 ---
 
 *Brick I ends. Brick II — The Kill Family — follows: KILL, KLINE,
