@@ -184,6 +184,39 @@ transparency toward the power — even when the officer is private.** The
 old networks chose, variously, neither. This house chooses both, on
 purpose, and has written it here so the choice cannot quietly un-happen.
 
+## The shield of the office — immunity from channel power [HOUSE]
+
+The founder's ruling, same sitting: **IRCops and server staff are
+immune to channel modes and commands — KICK, BAN, and their kin — so
+they can do their duties without interference.**
+
+The precedents are older than the ruling. Services and U-lined servers
+were always immune — no one kicks ChanServ — and Unreal's line gave the
+channel owner (+q) a lesser form of the same armor against kicks. The
+house extends the principle to its officers in person, because the
+alternative is absurd on its face: an oper who enters a channel to stop
+a mass-botting swarm cannot be *ejected by the swarm's channel bot* in
+the middle of the duty.
+
+**The shape of the shield.** Channel-level power does not take effect
+on staff: kicks do not remove them, bans (including quiet/mute bans) do
+not silence or exclude them, deops and mode-strips aimed at them fail.
+Channel wars rage exactly as encouraged — around the oper, never *on*
+the oper. And the shield has a deliberate seam, stated here so no future
+officer mistakes its size: **it is immunity from channels, not from the
+house.** A superior's KILL still lands. The *-lines still bind. The
+ledger still records. The Constitution that arms the oper against the
+channel is the same one that keeps the oper answerable — the shield
+faces outward, toward interference, never upward, toward judgment.
+
+**The incognito seam (desk design, marked).** When a channel command
+is attempted on an incognito oper, it fails *quietly* — a generic
+no-effect, indistinguishable from any other failed mode — never with a
+message announcing that the target is staff. A shield that announced
+itself would be a beacon, and the incognito ruling would be a dead
+letter the first time a channel tried to kick the quiet stranger who
+wouldn't leave.
+
 ## The Duties of the IRCop — the Constitution is the whole of the law [HOUSE]
 
 *Added at the founder's order, same sitting: the companion must explain

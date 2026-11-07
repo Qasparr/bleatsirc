@@ -109,6 +109,17 @@ Dictated the same sitting, in his words where quoted:
    marked: the guard bot defends registered channels against force
    (floods, hostile snatches); it does not resurrect lapsed channels —
    rule 7 governs those, and the house's answer there is final: no help.
+8. **IRCops and server staff are IMMUNE to channel power** (founder's
+   ruling, 2026-11-07): channel modes and commands — KICK, BAN, mute/quiet
+   bans, deop and mode-strips — simply do not take effect on them, so
+   they can do their duties without interference. Scope, by the ruling's
+   own terms: the immunity runs against *channel*-level actors. It is
+   not immunity from the house — server-level authority (a superior's
+   KILL, the *-lines, services) and the ledger bind opers exactly as
+   before. Desk design, marked: a failed attempt on an incognito oper
+   fails *quietly* — a generic no-effect, never a message announcing
+   that the target is staff — so the shield does not blow the incognito
+   it protects.
 
 ## House law the daemon is built under
 
