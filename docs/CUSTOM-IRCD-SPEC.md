@@ -64,6 +64,18 @@ one state:
   server management, global notices, abuse handling. IRCops are house
   officers; their powers are logged to the house record (transparency
   toward power, per THE LINE).
+- **The IRCopBot** (founder's addition, 2026-11-07) — a staff-only
+  services bot that acts as the **proxy hand of incognito opers** (his
+  word for them: "incognito troopers"): an oper directs it privately,
+  and the bot executes the duty — kills, *-lines, channel interventions,
+  swarm drops — so the action appears on the wire as the *bot's*, and
+  the oper is never exposed. Attribution is two-layered by design: the
+  wire names the bot; the house ledger names the directing oper, always,
+  recorded *before* the act executes. The bot acts on authenticated
+  oper direction only — it holds no initiative of its own (any
+  autonomous anti-flood behavior is a separate ruling, reserved to his
+  pen). Distinct from the member-facing channel guard bot of policy
+  rule 6: that one defends channels; this one serves officers.
 - **Host services (the vhost desk)** — assigns and activates the IRC vhost:
   the ghost-alias hostname. This is where the Shepherd tier's vhost good is
   delivered: on identify, the member's cloak replaces their raw host.

@@ -217,6 +217,59 @@ itself would be a beacon, and the incognito ruling would be a dead
 letter the first time a channel tried to kick the quiet stranger who
 wouldn't leave.
 
+## The proxy hand — the IRCopBot [HOUSE]
+
+The founder's addition, same sitting: **an IRCopBot that incognito
+opers — his word for them is *incognito troopers* — can use to do their
+drop duties through, like a proxy bot.**
+
+The problem it solves is written into the two rulings before it.
+Incognito keeps the oper invisible; enforcement makes them visible —
+every kill has an author, every K-line a signature, and a trooper who
+must sign their work in public is incognito in name only. The IRCopBot
+severs the act from the actor *on the wire*: the oper directs privately;
+the bot — a services pseudoclient of the U-lined class, immune as
+services have always been — executes in the open under its own name.
+
+**On the wire:**
+```
+oper→bot (private)   DROP SWARM #lobby  (12 clones, one /24, joining in waves)
+bot→#lobby           :IRCopBot MODE #lobby +mi
+bot→S                KLINE *@203.0.113.0/24 :Automation used to flood — case 114
+                     ← on the wire, the hand is the bot's.
+                     ← in the ledger: "KLINE …/24 — directed by <oper>,
+                        case 114, reason stated, duration 24h."
+```
+
+**The six inquiries.** **Who:** authenticated opers direct; the bot
+acts; the network sees the bot. **What:** the enforcement repertoire of
+Bricks II–III — kills, *-lines, mode enforcement, swarm drops — issued
+as private commands and executed as services actions. **Where:** the
+bot sits in the embedded services, beside the IRCop desk of the daemon
+spec; direction arrives by private message or the oper-only command
+wire, never in public channels. **When:** on direction — the bot holds
+**no initiative of its own**; it is a hand, not a will. (Whether
+pre-authorized automatic responses — a flood threshold that drops first
+and reports after — should ever be granted is an open seam, reserved to
+the founder's pen; the default is direction only.) **Why:** because the
+incognito ruling and the enforcement duty collide, and the house
+refuses to sacrifice either. **How:** oper-grade authentication — in
+this house, the oper's keypair (certfp) alongside the O-line credential;
+the direction is **written to the ledger before the act executes**, so
+no act exists whose authorship the record cannot produce; the bot
+reports back to the directing oper in full, ultra-verbose — what was
+done, on whom, with what effect.
+
+**The teaching, and it is the sharpest one in this brick:** a proxy
+concentrates temptation. The same severance that protects a trooper's
+safety could, in a lesser house, protect an abuser's conscience —
+*the bot did it* is the oldest excuse wearing new clothes. The house's
+answer is architectural, not rhetorical: **the wire forgets the oper;
+the ledger never does.** Attribution is not destroyed by the proxy; it
+is *moved* — from the public square, where it endangers, to the house
+record, where it judges. An act the ledger cannot attribute does not
+execute at all. That is the whole design, and Brick VI will weigh it.
+
 ## The Duties of the IRCop — the Constitution is the whole of the law [HOUSE]
 
 *Added at the founder's order, same sitting: the companion must explain
