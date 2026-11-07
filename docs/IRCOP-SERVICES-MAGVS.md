@@ -354,6 +354,156 @@ ledger, and answerable to the membership the Constitution serves.
 
 ---
 
+# APPENDIX A — THE COMPLETE IRCOP COMMAND REGISTER
+
+*Added at the founder's direct question, 2026-11-07: the full list of
+IRCop commands and what they do, in one place. The bricks deep-dive each
+family under the full anatomy; this register is the complete map — no
+command of the office left off it. Scope tags: **L** local server ·
+**N** network-wide · **S** services-side. Strata as throughout:
+[1459] · [DAEMON] · [SERVICES] · [HOUSE].*
+
+## Becoming, and seeing like an officer
+
+- **OPER** [1459] — Authenticate against an O-line and take up the oper
+  flag. The door to everything below. (Brick I.)
+- **SNOTICE / +s snomasks** [DAEMON] — Subscribe to classes of server
+  notices: connects, quits, kills, failed OPER attempts, flood reports.
+  Perception, not power — and the precondition of every sane act.
+- **LOCOPS** [DAEMON] — Message to the opers of this server only.
+- **TRACE** [1459] — Trace the server path to a user or server;
+  exposes the link tree to an officer tracing floods or splits.
+- **STATS** [1459] — Interrogate a server's tables by letter: its
+  *-lines (the q/o/l letters read the ban and oper tables), uptime,
+  connection counts, command usage. The officer's census.
+- **LINKS** [1459] — List the network's server links; opers see the
+  unmasked map users are denied.
+- **ADMIN** [1459] — A server's administrative identity and contact;
+  the address to which abuse of that server is reported.
+
+## The kill family
+
+- **KILL** [1459] **N** — Disconnect a user, with a reason that carries
+  the path of servers it crossed. The personal blade: one user, now.
+- **KLINE** [DAEMON] **L** — Ban a user@host mask from *this* server,
+  written to its config; Bahamut's temporary form takes a duration and
+  expires itself. **UNKLINE** removes it.
+- **GLINE** [DAEMON] **N** — The K-line's network-wide elder: a
+  host-mask ban propagated to every server. **UNGLINE** removes.
+- **ZLINE** [DAEMON] **L** — Ban an IP (or CIDR) *before registration*:
+  the connection is refused at the door, no nick ever spoken. For
+  botnets whose users never become users.
+- **DLINE** [DAEMON] **L** — The hybrid-lineage IP deny; ZLINE's cousin
+  from the ircd-hybrid/ircu side of the family.
+- **AKILL** [SERVICES] **N** — Autokill: a services-held hostmask ban
+  with mandatory expiry and reason, enforced by every server on
+  connect. DALnet's workhorse against clones and flood bots; its
+  removal twin travelled as RAKILL in the early services.
+- **SHUN** [DAEMON] **N** — The silencing: the user stays connected and
+  sees the network, but every command is swallowed — they can speak to
+  no one, join nothing, do nothing. For abusers whose data you still
+  want visible to themselves as consequence. **TEMPSHUN** is its
+  join-scoped, minutes-long form, usable by lesser flags.
+
+## Silencing, filtering, and the channel instruments
+
+- **SPAMFILTER** [DAEMON] **N** — Unreal's regex engine over messages
+  and actions: match text, then block, kill, or *-line the sender, per
+  the rule. Power and hazard in equal measure (Brick III weighs it).
+- **SAMODE** [DAEMON] **N** — Services-admin mode change on any channel
+  or user, overriding channel rank entirely.
+- **SAJOIN / SAPART** [DAEMON] **N** — Force a user into, or out of, a
+  channel, by services authority.
+- **SANICK** [DAEMON] **N** — Force a user's nick change (freeing a
+  collided or abusive nick without killing the person holding it).
+- **CHGHOST / CHGIDENT / CHGNAME** [DAEMON] **N** — Rewrite a connected
+  user's host, ident, or realname, live — the discreet alternative to
+  killing them for a bad vhost.
+- **SETHOST / SETIDENT** [DAEMON] **L** — The oper-facing forms: set a
+  (or one's own) visible host/ident.
+- **OPEROVERRIDE** [DAEMON] — Not a command but a chartered privilege:
+  join through +i, +b, +k, +l; the officer's master key to channels,
+  exercised under Brick VI's judgment rules. In this house it is bounded
+  by the immunity chapter above: staff need no override to *enter*
+  force — channel power simply does not move them.
+- **CLEARMODES** [SERVICES] — ChanServ/OperServ clearing of a channel's
+  modes and bans in one act — the takeover fire-axe.
+- **AKICK** [SERVICES] — A channel's standing auto-kick list, held by
+  channel services: the mask that is kicked on sight, every sight.
+
+## Server power — the dangerous drawer
+
+- **SQUIT** [1459] **N** — Sever a server's link to the network, with a
+  reason. Amputation as an instrument: for a compromised or desynced
+  server, there is no lesser tool.
+- **CONNECT** [1459] **N** — Order a server to link to another named
+  server; the surgeon's counterpart to SQUIT.
+- **JUPE** [SERVICES] **N** — *Jupiter* a name: place a fake, blocking
+  presence on a server, nick, or channel so the real one cannot link,
+  register, or be used — for holding a compromised server's name out of
+  the merge until its owner returns.
+- **REHASH** [1459] **L** — Reload the server's configuration — O-lines,
+  *-lines, limits — without dropping a single user. How calm edits
+  become live law.
+- **RESTART** [1459] **L** — Restart the daemon in place; the network
+  holds its breath for seconds.
+- **DIE** [1459] **L** — Shut the server down entirely. In 1459 it sits
+  in the text unguarded; the lineages learned to fence it with flags,
+  passwords, and fear. Brick IV tells why.
+
+## The voices of power
+
+- **WALLOPS** [1459] **N** — A message to every oper on the network
+  (and, in the old form, every +w user): the officer's public address.
+- **GLOBOPS** [DAEMON] **N** — The DALnet/Unreal global oper wall:
+  opers only, network-wide, faster and narrower than WALLOPS.
+- **CHATOPS** [DAEMON] **N** — Bahamut/DALnet's oper chat wall — the
+  informal channel of the officer corps, distinct from GLOBOPS'
+  announcements.
+- **GLOBAL** [SERVICES] **N** — OperServ's notice to *every user on the
+  network* — maintenance warnings, emergency word. The loudest voice
+  the services own; governed by Duty 9 (teach) in this house.
+
+## The services desk (OperServ and kin)
+
+- **SESSION / EXCEPTION** [SERVICES] — OperServ's connection governor:
+  cap simultaneous sessions per host; hold the exception list for hosts
+  chartered to exceed it (schools, bouncers, shells). The quiet tool
+  that made clone wars expensive before they started.
+- **SVSHOLD** [SERVICES] — Hold a nick in services custody, unusable by
+  anyone, pending judgment.
+- **OS OPER / OS ADMIN lists** [SERVICES] — The services' own officer
+  roster — who may command OperServ itself — kept separate from the
+  daemons' O-lines, because the services are a second seat of power and
+  keep their own roll of it.
+- **RAW** [SERVICES] — OperServ emitting a raw protocol line as if it
+  were a server. The single most dangerous services command ever
+  shipped; most networks compiled it out. It stands in this register
+  for completeness and as a warning — the house does not ship it.
+- **UPDATE / RELOAD / SHUTDOWN** [SERVICES] — The services process's own
+  lifecycle commands, for services admins: flush databases, reload
+  config, stop the services. Small commands, constitutional weight —
+  whoever holds them holds NickServ's memory itself.
+
+## The house instruments [HOUSE]
+
+- **IRCopBot direction** — The incognito trooper's proxy hand (Brick I):
+  the full enforcement repertoire above, directable in private, executed
+  under the bot's name; every direction ledgered, with its directing
+  oper, before the act.
+- **The channel guard bot** — Offered to every channel against takeover
+  by force (policy rule 6); a member instrument, not an officer's.
+- **The ledger** — Not a command but the office's memory: every official
+  act, its actor, its reason, inspectable by the membership. If a tool
+  in this register is ever used in this house, its use is *here*.
+
+*End of Appendix A. Where a lineage spells a command differently
+(Hybrid's DLINE beside EFnet's GLINE, and their kin), the register
+carries the major forms; the bricks arbitrate the spellings at their
+boundary, per the Zero-Point Directive.*
+
+---
+
 *Brick I ends. Brick II — The Kill Family — follows: KILL, KLINE,
 GLINE, ZLINE, DLINE, each under the same anatomy.*
 
